@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    padding: 0px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+img {
+    margin-top: 225px;
+}
+
+form { 
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+input {
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    outline: none;
+}
+
+input[type=text] {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+input[type=button] {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h2 {
+    margin-top: 60px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 24px;
+    color: #a5ff9b;
+}
+

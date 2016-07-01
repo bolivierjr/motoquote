@@ -1,23 +1,27 @@
 <html>
+
 <head>
   <title>Efnet #moto</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" >
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="client.js"></script>
 </head>
+
 <body>
 <div class="motoquote">
   <div class="container">
-    <h1>MOTOQUOTE</h1>
+    <img src="images/logo.png" />
   </div>
 </div>
 <div class="motosearch">
-  <div class="container">
-    <table "id=searchbar">
-      <tr>
-      </tr>
-    </table>
+  <div id="search" class="container">
+    <form name="myForm" type="text" id="myForm">
+      <input type="text" name="myInput" id="myInput" value="" maxlength="30" size="40" autofocus>
+      <input type="button" name="button" value="Search" id="button">
+    </form>
   </div>
 </div>
 </body>
+
 </html>
