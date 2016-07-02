@@ -1,7 +1,9 @@
 $(function(){
-
+  $('#p').html('^Leave empty to search randomly').animate({marginLeft:"200"},400);
+  $('#p').animate({marginLeft:"100"},400);
   $("#button").click( function(){
     var input = $("#myInput").val();
+    $('#p').slideUp();
     $.get('/api?search=' + input, function(search) {
       var quote = search.title + ": " + search.quote;
       var quoted = quote.replace(/</g, "&lt;").replace(/>/g, "&gt;");
