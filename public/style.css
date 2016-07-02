@@ -94,13 +94,16 @@ input[type=button] {
     font-family: 'Love Ya Like A Sister', cursive;
     color: orange;
     font-size: 18px;
+    font-weight: 100;
 
 }
 
 h2 {
     margin-top: 60px;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Helvetica Neue';
     font-size: 24px;
+    font-variant: normal;
+    font-weight: 300;
     color: #a5ff9b;
      animation: fadein 1.5s;
     -moz-animation: fadein 1.5s; /* Firefox */
